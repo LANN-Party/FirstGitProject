@@ -212,7 +212,7 @@
 		 */
 		public boolean isLoggedOn()
 		{
-			return null;
+			return true;
 		}
 		
 		/**
