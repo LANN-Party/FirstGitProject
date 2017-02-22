@@ -165,7 +165,7 @@
 		
 
 		/**
-		 * Sets the Student's Stat
+		 * Get's the students saved schools
 		 * 
 		 * @param String stat
 		 */
@@ -174,6 +174,66 @@
 			return null;
 		}
 		
+		/**
+		 * Sets the Student's saved schools
+		 * 
+		 * @param String[] schools
+		 */
+		public void setSavedSchools(String[] schools)
+		{
+			
+		}
+		
+		/**
+		 * Adds a school to saved schools
+		 * 
+		 * @param String school
+		 */
+		public void addSchool(String school)
+		{
+			
+		}
+		
+		/**
+		 * Updates the students info
+		 * 
+		 * @param String uName, fName, pWord
+		 * @param char Type, Status
+		 */
+		public void updateInfo(String uName, String fName, String pWord, char type, char status)
+		{
+			
+		}
+		
+		/**
+		 * Checks if Student is logged in
+		 * 
+		 * @param nonr
+		 */
+		public boolean isLoggedOn()
+		{
+			return null;
+		}
+		
+		/**
+		 * Checks if Student is logged in
+		 * 
+		 * @param boolean log
+		 */
+		public void setLogon(boolean log )
+		{
+			
+		}
+		
+		/**
+		 * Removes school from saved scchools
+		 * 
+		 * @param String school
+		 */
+		public void removeSchool(String school)
+		{
+			
+		}
 		
 		
 		
