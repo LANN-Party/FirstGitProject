@@ -11,41 +11,45 @@
 	public class Student {
 		//Data fields
 			/**The Student's first name (String)*/
-		String firstName;
+		private String firstName;
 		
 		//Data fields
 			/**The Student's last name (String)*/
-		String lastName;
+		private String lastName;
 		
 		//Data fields
 			/**The Student's user name (String)*/
-		String userName;
+		private String userName;
 		
 		//Data fields
 			/**The Student's password (String)*/
-		String password;
+		private String password;
 		
 		//Data fields
 			/**The Student's Type: Default U (Char)*/
-		char type;
+		private char type;
 		
 		//Data fields
 			/**The Student's Current session status(char)*/
-		char status;
+		private char status;
 		
 		//Data fields
-			/**The Student's Saved Schools (String[])*/
-		String[] savedSchools;
+			/**The Student's Saved Schools (String[])
+			 * currently a String[] due to unknown variable
+			 * type as of 2/26/17
+			 * please change later */
+		private String[] savedSchools;
 		
 		//Data fields
 			/**The Student's logon status (Boolean)*/
-		boolean logon; 
+		private boolean logon; 
 		
 		
 		/**
 		 * Return's the Student's first name
 		 * 
 		 * @param none
+		 * @returns firstName
 		 */
 		public String getFirstName()
 		{
@@ -56,6 +60,7 @@
 		 * Return's the Student's Last name
 		 * 
 		 * @param none
+		 * @returns lastName
 		 */
 		public String getLastName()
 		{
@@ -66,6 +71,7 @@
 		 * Return's the Student's User name
 		 * 
 		 * @param none
+		 * @returns username
 		 */
 		public String getUserName()
 		{
@@ -76,6 +82,7 @@
 		 * Return's the Student's type
 		 * 
 		 * @param none
+		 * @returns type
 		 */
 		public char getType()
 		{
@@ -83,19 +90,10 @@
 		}
 		
 		/**
-		 * Return's the Student's Username
-		 * 
-		 * @param none
-		 */
-		public String getUsername()
-		{
-			return null;
-		}
-		
-		/**
 		 * Return's the Student's Password
 		 * 
 		 * @param none
+		 * @returns password
 		 */
 		public String getPassword()
 		{
@@ -157,6 +155,7 @@
 		 * gets the Student's Stat
 		 * 
 		 * @param String stat
+		 * @returns firstName
 		 */
 		public String getStatus(String stat)
 		{
@@ -168,6 +167,7 @@
 		 * Get's the students saved schools
 		 * 
 		 * @param String stat
+		 * @returns firstName
 		 */
 		public String[] getSavedSchools()
 		{
